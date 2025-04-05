@@ -205,6 +205,6 @@
   // ページ読み込み完了後に実行
   window.addEventListener('load', function () {
     // 少し遅延させて実行（DOMが完全に読み込まれるのを待つ）
-    setTimeout(createCalculatorUI, 1000)
+    setTimeout(createCalculatorUI, 100)
   })
 })()
